@@ -9,10 +9,10 @@ function newTask(){
     console.log("Inside new task");
     var task = document.getElementById("input").value;
     console.log(task);
-    var ul = document.getElementById("list");
+    var ol = document.getElementById("list");
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(task));
-    ul.appendChild(li);
+    ol.appendChild(li);
     var task = null;
     document.getElementById("input").value ="";
     // li.onclick = removeItem;
@@ -51,7 +51,9 @@ function newTask(){
 document.body.onkeydown = function(e){
     if (e.keyCode == "16"){
      document.body.classList.toggle("darkmode"); 
-     var heading = document.getElementById("light");
+     var heading = document.getElementById("light1");
+     heading.classList.toggle("light");
+     var heading = document.getElementById("light2");
      heading.classList.toggle("light");
      if ( heading.innerHTML =="Press shift to be the dark knight!"){
         heading.innerHTML="Press shift to be the green lantern!";
