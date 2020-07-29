@@ -1,0 +1,88 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+h2{
+    color: rgb(196, 196, 196);
+}
+
+.light{
+    color: rgb(73, 73, 73);
+}
+
+
+
+.darkmode{
+    background-color: rgb(200, 228, 199);
+}
+
+input{
+    border: 0px solid rgb(112, 112, 112);
+    background-color: beige;
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+input:focus {
+    outline : none;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: cursive;
+       
+}
+ol {
+    text-align: center;
+    font-family: cursive;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+#pendingtasks{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+#donetasks{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+}
+
+#list li:hover{
+    text-decoration: line-through;
+}
+
+#pendingimage{
+    height: 30px;
+    display: inline;
+    vertical-align: middle;
+}
+/* // how to give random color text to different list items */
