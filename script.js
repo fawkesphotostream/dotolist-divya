@@ -52,13 +52,17 @@ document.body.onkeydown = function(e){
     if (e.keyCode == "16"){
      document.body.classList.toggle("darkmode"); 
      var heading = document.getElementById("light1");
+     var image = document.getElementById("modeimage");
      heading.classList.toggle("light");
+     console.log(image.src);
      var heading = document.getElementById("light2");
      heading.classList.toggle("light");
-     if ( heading.innerHTML =="Press shift to be the dark knight!"){
-        heading.innerHTML="Press shift to be the green lantern!";
-    } else if (heading.innerHTML=="Press shift to be the green lantern!" ){
-        heading.innerHTML="Press shift to be the dark knight!"
+     if ( heading.innerText =="Press shift to be the dark knight!"){
+        heading.innerText="Press shift to be the green lantern!";
+        image.src = "kindpng_1656495.png";
+    } else if (heading.innerText=="Press shift to be the green lantern!" ){
+        heading.innerText="Press shift to be the dark knight!"
+        image.src = "batman-logo-png-2032.png";
     }
     }
 }

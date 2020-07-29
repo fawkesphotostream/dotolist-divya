@@ -8,21 +8,24 @@
 </head>
 <body class="darkmode">
     <h2 class="light" id="light1">Your daily to-do list</h2>
-    <h3 class="light" id="light2">Press shift to be the dark knight!</h3>
-    <!-- <img id="darkknight" src="batman-logo-png-2032.png" > -->
     
-    <input placeholder="Type your task and press enter" id="input"></input>
+    <div id= "modechangediv">
+    <h3 class="light" id="light2">Press shift to be the dark knight!</h3>
+    <img class="darkknight" id="modeimage" src="batman-logo-png-2032.png">
+    </div>
+    
+    <div id="inputdiv"><input placeholder="Type your task and press enter" id="input"></input></div>
 </br>
 <div id="parentdiv">
 
 <div id="pendingtasks">   
-    <p>Pending tasks <img id="pendingimage" src="https://c7.uihere.com/icons/480/35/805/alarm-pending-processing-9dc2dfce63c4fc5c62c980977c40568e.png"></p>
+    <p id="listtitle">Pending tasks <img id="pendingimage" src="https://c7.uihere.com/icons/480/35/805/alarm-pending-processing-9dc2dfce63c4fc5c62c980977c40568e.png"></p>
     <ol id="list">
-        <li id="li">Demo task ( click on it to complete! ) </span></li>
+        <li id="li">Demo task ( click on it to complete! )</span></li>
     </ol>
 </div> 
 <div id="donetasks">
-    <p>Completed tasks <img id ="pendingimage" src="https://images.vexels.com/media/users/3/157931/isolated/preview/604a0cadf94914c7ee6c6e552e9b4487-curved-check-mark-circle-icon-by-vexels.png"></p>
+    <p id="listtitle">Completed tasks <img id ="pendingimage" src="https://images.vexels.com/media/users/3/157931/isolated/preview/604a0cadf94914c7ee6c6e552e9b4487-curved-check-mark-circle-icon-by-vexels.png"></p>
     <ol id="completed">
     </ol>
     <script src="script.js"></script>
