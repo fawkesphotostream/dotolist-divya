@@ -1,10 +1,19 @@
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 40px;
 }
 
 body{
-    background-color: rgb(29, 29, 29);
+    background-image: url("wp246564.jpg");
+    /* Full height */
+    height:100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 20px;
+
 }
 
 
@@ -25,7 +34,16 @@ h3{
 
 
 .darkmode{
-    background-color: rgb(200, 228, 199);
+    background-image: url("photo-1492999104346-cabaa757be8f.jpg");
+    /* Full height */
+    height:100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 20px;
     
 }
 
