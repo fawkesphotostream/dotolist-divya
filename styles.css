@@ -10,8 +10,9 @@ body{
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-position-y: top;
-    background-size: 100% 100%;
+    /* background-position-y: top; */
+    /* background-size: 100% 100%; */
+    background-size: cover;
     background-blend-mode: darken;
     padding: 20px;
 
@@ -24,13 +25,43 @@ h2{
     font-size: 1.5em;
     margin-top: 2em;
 }
-
+/* 
 h3{
     color: rgb(196, 196, 196);
     display: inline-block;
     font-size: 1em;
     margin-top: .5em;
     margin-bottom: 1.5em;
+} */
+
+button{
+    background-color :transparent;
+    color:rgb(196, 196, 196);
+    border-radius: 2em;
+    /* padding:.2em; */
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 1em;
+    margin-right: 0em;
+    border: .2px solid rgb(196, 196, 196);
+    font-weight: 600;
+}
+
+button:focus{
+    outline: none;
+}
+
+
+.modeSwitch1{
+    background-color:transparent;
+    color: rgb(73, 73, 73);
+    border-radius: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 1em;
+    margin-right: 0em;
+    border: .2px solid rgb(73, 73, 73);
+    font-weight: 600;
 }
 
 .light{
